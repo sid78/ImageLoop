@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+<title> Slider pugin</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="slide.js"></script>
+
+<style>
+div#animImg{
+width:suto;
+height:auto;
+background-color:#ffffff;
+position:relative;
+}
+div#hello >img{
+z-index:9999;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+<div id="animImg">
+
+<img  src="images/one.png"/>
+
+<img  src="images/two.png"/>
+
+<img  src="images/three.png"/>
+
+<img src="images/four.png"/>
+
+<img src="images/five.png"/>
+
+
+
+</div>
+
+<script>
+$(document).ready( function() {
+    $('div#animImg').animateImage(3000);
+});
+</script>
+
+
+</body>
+
+
+
+</html>
