@@ -22,18 +22,10 @@ Note:
 Slide.js is  our custom javascript file 
 
 2. Add image src in the html page(within body tag) wrapped in a div with id= “animImg”
-<div id=”animImg”>
-<img src=”#” alt=” “/>
-<img src=”#” alt=” “/>
-<img src=”#” alt=” “/>
-</div>
+
 You can delete the default images and add your custom images in the images folder.
 
 
 3. Call the plugin by adding this script in the head or the body tag 
-<script>
-$(document).ready( function() {
-    $('div#animImg').animateImage(3000);
-});
-</script>
+
 Important: The parameter  3000 in the function is the speed of the animation . You can increase or decrease the number to change the animation speed.Dont keep the parameter empty as it will cause error. I have done this intentionally to keep the plugin simple. 
